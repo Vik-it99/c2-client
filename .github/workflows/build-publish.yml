@@ -35,6 +35,8 @@ jobs:
           username: __token__
           repository-url: https://test.pypi.org/legacy/
           password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          verbose: true
+
       
       - name: Upload distributions
         uses: actions/upload-artifact@v4
