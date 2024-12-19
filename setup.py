@@ -36,7 +36,7 @@ entrypoints = [
 ]
 
 setup(
-    name="c2client",
+    name="c2clienttest",
     version=__version__,
     description="CROC Cloud Platform - API Client",
     long_description=get_description(),
